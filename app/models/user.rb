@@ -23,8 +23,4 @@ class User
   property :created_at,       DateTime
   property :updated_at,       DateTime
   
-  ### Associations
-  
-  has n, :accounts
-  
 end
